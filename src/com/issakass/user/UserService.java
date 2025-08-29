@@ -7,10 +7,10 @@ import java.util.UUID;
  */
 public class UserService {
 
-    private final UserDAO userDao = new UserDAO();
+    private final UserDAO userDAO = new UserFileDataAccessService();
 
     public User[] getUsers() {
-        return userDao.getUsers();
+        return userDAO.getUsers();
     }
 
     public User getUserById(UUID id) {
