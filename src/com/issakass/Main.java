@@ -1,9 +1,14 @@
 package com.issakass;
 
 import com.issakass.booking.CarBooking;
+import com.issakass.booking.CarBookingDAO;
 import com.issakass.booking.CarBookingService;
 import com.issakass.car.Car;
+import com.issakass.car.CarDAO;
+import com.issakass.car.CarService;
 import com.issakass.user.User;
+import com.issakass.user.UserDAO;
+import com.issakass.user.UserFileDataAccessService;
 import com.issakass.user.UserService;
 
 import java.util.Scanner;
@@ -15,8 +20,14 @@ import java.util.UUID;
 public class Main {
 
     public static void main(String[] args) {
-        UserService userService = new UserService();
-        CarBookingService carBookingService = new CarBookingService();
+        UserDAO userDAO = new UserFileDataAccessService();
+        UserService userService = new UserService(userDAO);
+
+        CarBookingDAO carBookingDAO = new CarBookingDAO();
+        CarDAO carDAO = new CarDAO();
+
+        CarService carService = new CarService(carDAO);
+        CarBookingService carBookingService = new CarBookingService(carBookingDAO, carService);
 
         Scanner scanner = new Scanner(System.in);
 
