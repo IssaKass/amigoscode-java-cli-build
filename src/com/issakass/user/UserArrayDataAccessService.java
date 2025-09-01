@@ -1,5 +1,7 @@
 package com.issakass.user;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -18,7 +20,7 @@ public class UserArrayDataAccessService implements UserDAO {
 
 
     @Override
-    public User[] getUsers() {
-        return USERS;
+    public List<User> getUsers() {
+        return Arrays.asList(USERS);
     }
 }

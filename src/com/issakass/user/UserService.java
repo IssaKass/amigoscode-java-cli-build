@@ -1,5 +1,6 @@
 package com.issakass.user;
 
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -13,7 +14,7 @@ public class UserService {
         this.userDAO = userDAO;
     }
 
-    public User[] getUsers() {
+    public List<User> getUsers() {
         return userDAO.getUsers();
     }
 

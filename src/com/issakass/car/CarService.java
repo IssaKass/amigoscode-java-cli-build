@@ -1,5 +1,9 @@
 package com.issakass.car;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * Author: abdallah-issakass
  */
@@ -11,8 +15,7 @@ public class CarService {
         this.carDAO = carDAO;
     }
 
-
-    public Car[] getAllCars() {
+    public List<Car> getAllCars() {
         return carDAO.getAllCars();
     }
 
@@ -25,31 +28,18 @@ public class CarService {
         throw new IllegalStateException(String.format("Car with reg %s not found", regNumber));
     }
 
-    public Car[] getAllElectricCars() {
-        int electricalCarsCount = 0;
+    public List<Car> getAllElectricCars() {
+        List<Car> cars = getAllCars();
 
-        Car[] cars = getAllCars();
-
-        if (cars.length == 0) {
-            return new Car[0];
+        if (cars.isEmpty()) {
+            return Collections.emptyList();
         }
+
+        List<Car> electricalCars = new ArrayList<>();
 
         for (Car car : cars) {
             if (car.isElectric()) {
-                electricalCarsCount++;
-            }
-        }
-
-        if (electricalCarsCount == 0) {
-            return new Car[0];
-        }
-
-        Car[] electricalCars = new Car[electricalCarsCount];
-        int index = 0;
-
-        for (Car car : cars) {
-            if (car.isElectric()) {
-                electricalCars[index++] = car;
+                electricalCars.add(car);
             }
         }
 
