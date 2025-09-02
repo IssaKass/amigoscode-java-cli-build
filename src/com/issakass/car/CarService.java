@@ -1,7 +1,5 @@
 package com.issakass.car;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -20,30 +18,16 @@ public class CarService {
     }
 
     public Car getCar(String regNumber) {
-        for (Car car : getAllCars()) {
-            if (regNumber.equals(car.getRegNumber())) {
-                return car;
-            }
-        }
-        throw new IllegalStateException(String.format("Car with reg %s not found", regNumber));
+        return getAllCars().stream()
+                .filter(car -> car.getRegNumber().equals(regNumber))
+                .findFirst()
+                .orElseThrow(() -> new IllegalStateException(String.format("Car with reg %s not found", regNumber)));
     }
 
     public List<Car> getAllElectricCars() {
-        List<Car> cars = getAllCars();
-
-        if (cars.isEmpty()) {
-            return Collections.emptyList();
-        }
-
-        List<Car> electricalCars = new ArrayList<>();
-
-        for (Car car : cars) {
-            if (car.isElectric()) {
-                electricalCars.add(car);
-            }
-        }
-
-        return electricalCars;
+        return getAllCars().stream()
+                .filter(Car::isElectric)
+                .toList();
     }
 
 }
