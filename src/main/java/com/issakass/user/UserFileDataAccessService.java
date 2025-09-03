@@ -13,9 +13,9 @@ import java.util.UUID;
 public class UserFileDataAccessService implements UserDAO {
     @Override
     public List<User> getUsers() {
-        List<User> users = new ArrayList<>();
+        File file = new File(getClass().getClassLoader().getResource("users.csv").getPath());
 
-        File file = new File("src/com/issakass/users.csv");
+        List<User> users = new ArrayList<>();
         try (Scanner scanner = new Scanner(file)) {
             while (scanner.hasNext()) {
                 String[] split = scanner.nextLine().split(", ");
