@@ -29,7 +29,7 @@ public class CarBookingService {
         }
 
         return availableCars.stream()
-                .filter(car -> car.getRegNumber().equals(regNumber))
+                .filter(car -> car.regNumber().equals(regNumber))
                 .findFirst()
                 .map(car -> {
                     UUID bookingId = UUID.randomUUID();
@@ -46,7 +46,7 @@ public class CarBookingService {
         return carBookingDao.getCarBookings()
                 .stream()
                 .filter(Objects::nonNull)
-                .filter(carBooking -> carBooking.getUser().getId().equals(userId))
+                .filter(carBooking -> carBooking.getUser().id().equals(userId))
                 .map(CarBooking::getCar)
                 .toList();
     }

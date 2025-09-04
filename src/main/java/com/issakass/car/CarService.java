@@ -19,7 +19,7 @@ public class CarService {
 
     public Car getCar(String regNumber) {
         return getAllCars().stream()
-                .filter(car -> car.getRegNumber().equals(regNumber))
+                .filter(car -> car.regNumber().equals(regNumber))
                 .findFirst()
                 .orElseThrow(() -> new IllegalStateException(String.format("Car with reg %s not found", regNumber)));
     }

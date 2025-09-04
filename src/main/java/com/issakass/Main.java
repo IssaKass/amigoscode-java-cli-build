@@ -100,7 +100,7 @@ public class Main {
             return;
         }
 
-        List<Car> userBookedCars = carBookingService.getUserBookedCars(user.getId());
+        List<Car> userBookedCars = carBookingService.getUserBookedCars(user.id());
         if (userBookedCars.isEmpty()) {
             System.out.println("❌ user " + user + " has no cars booked");
             return;

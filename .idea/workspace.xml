@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58f686bc-c5cf-4cbb-8bd9-8b9e997b7f23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/issakass/booking/CarBookingServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-cli-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/booking/CarBookingDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/booking/CarBookingDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/booking/CarBookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/booking/CarBookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/car/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/car/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/booking/CarBookingDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/booking/CarBookingDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/booking/CarBookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/booking/CarBookingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/car/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/car/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/car/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/car/CarService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/users.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IssaKass&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:IssaKass/amigoscode-java-cli-build.git&quot;,
+    &quot;accountId&quot;: &quot;53354ba5-1ee5-400a-8668-a71f4979d0df&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32E2NQ9JTwEf5EWooQ64JBYE1hk" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.All in java-cli-build.executor": "Run",
+    "JUnit.CarDAOTest.executor": "Run",
+    "JUnit.UserArrayDataAccessServiceTest.executor": "Run",
+    "JUnit.UserFakerDataAccessServiceTest.executor": "Run",
+    "JUnit.UserFileDataAccessServiceTest.executor": "Run",
+    "JUnit.UserServiceTest.executor": "Run",
+    "Maven.java-cli-build [clean].executor": "Run",
+    "Maven.java-cli-build [test].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/abdallah-issakass/IdeaProjects/amigoscode/amigoscode-java-cli-build/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.16503906",
+    "project.structure.side.proportion": "0.21587609"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.issakass.booking" />
+      <recent name="com.issakass.car" />
+      <recent name="com.issakass.user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="amigoscode-java-cli-build" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="java-cli-build" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All in java-cli-build" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-cli-build" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="java-cli-build" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="java-cli-build" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in java-cli-build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58f686bc-c5cf-4cbb-8bd9-8b9e997b7f23" name="Changes" comment="" />
+      <created>1756971370783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756971370783</updated>
+      <workItem from="1756971371929" duration="403000" />
+      <workItem from="1756971785750" duration="199000" />
+      <workItem from="1756971989104" duration="89000" />
+      <workItem from="1756972115567" duration="10000" />
+      <workItem from="1756972141980" duration="2907000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/amigoscode_java_cli_build$All_in_java_cli_build.ic" NAME="All in java-cli-build Coverage Results" MODIFIED="1756973428984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>

@@ -19,7 +19,6 @@ public class CarBookingDAO {
         return carBookings;
     }
 
-
     public void book(CarBooking carBooking) {
         carBookings.add(carBooking);
     }
@@ -27,5 +26,4 @@ public class CarBookingDAO {
     public void cancelCarBooking(UUID id) {
 
     }
-
 }

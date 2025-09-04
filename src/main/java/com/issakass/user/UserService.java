@@ -20,7 +20,7 @@ public class UserService {
 
     public User getUserById(UUID id) {
         return getUsers().stream()
-                .filter(user -> user.getId().equals(id))
+                .filter(user -> user.id().equals(id))
                 .findFirst()
                 .orElse(null);
     }
