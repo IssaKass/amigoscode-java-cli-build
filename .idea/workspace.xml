@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58f686bc-c5cf-4cbb-8bd9-8b9e997b7f23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/issakass/booking/CarBookingServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-cli-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/booking/CarBookingDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/booking/CarBookingDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/booking/CarBookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/booking/CarBookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/car/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/car/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/issakass/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/issakass/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/booking/CarBookingDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/booking/CarBookingDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/booking/CarBookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/booking/CarBookingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/car/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/car/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/car/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/car/CarService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/issakass/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/issakass/user/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/users.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,37 +45,37 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.All in java-cli-build.executor": "Run",
-    "JUnit.CarDAOTest.executor": "Run",
-    "JUnit.UserArrayDataAccessServiceTest.executor": "Run",
-    "JUnit.UserFakerDataAccessServiceTest.executor": "Run",
-    "JUnit.UserFileDataAccessServiceTest.executor": "Run",
-    "JUnit.UserServiceTest.executor": "Run",
-    "Maven.java-cli-build [clean].executor": "Run",
-    "Maven.java-cli-build [test].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/abdallah-issakass/IdeaProjects/amigoscode/amigoscode-java-cli-build/src/test/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.16503906",
-    "project.structure.side.proportion": "0.21587609"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in java-cli-build.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarDAOTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserArrayDataAccessServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserFakerDataAccessServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserFileDataAccessServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-cli-build [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-cli-build [test].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/abdallah-issakass/IdeaProjects/amigoscode/amigoscode-java-cli-build/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.16503906&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21587609&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
