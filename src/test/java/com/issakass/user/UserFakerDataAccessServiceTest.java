@@ -21,8 +21,8 @@ class UserFakerDataAccessServiceTest {
                 .hasSize(20);
 
         users.forEach(user -> {
-            assertThat(user.id()).isNotNull();
-            assertThat(user.name()).isNotBlank();
+            assertThat(user.getId()).isNotNull();
+            assertThat(user.getName()).isNotBlank();
         });
     }
 

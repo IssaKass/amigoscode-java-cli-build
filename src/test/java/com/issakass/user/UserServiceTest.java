@@ -42,7 +42,7 @@ class UserServiceTest {
     }
 
     @Test
-    void getUserById_shouldReturnUser_whenIdExists() {
+    void getUserById_shouldReturnUser_whenGetIdExists() {
         // Given
         var userId = UUID.randomUUID();
         var expected = new User(userId, "Charlie");
@@ -63,7 +63,7 @@ class UserServiceTest {
     }
 
     @Test
-    void getUserById_shouldReturnNull_whenIdDoesNotExist() {
+    void getUserById_shouldReturnNull_whenGetIdDoesNotExist() {
         // Given
         UUID nonExistentId = UUID.randomUUID();
         var users = List.of(

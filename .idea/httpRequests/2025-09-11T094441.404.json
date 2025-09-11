@@ -1,0 +1,7 @@
+{
+  "type": "about:blank",
+  "title": "Not Found",
+  "status": 404,
+  "detail": "Car not available or already booked: DEF-234",
+  "instance": "/api/v1/bookings"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "regNumber": "DEF-234",
+    "rentalPricePerDay": 55.00,
+    "brand": "AUDI",
+    "electric": true
+  },
+  {
+    "regNumber": "GHI-567",
+    "rentalPricePerDay": 65.00,
+    "brand": "MERCEDES",
+    "electric": false
+  }
+]

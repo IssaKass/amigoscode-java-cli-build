@@ -1,0 +1,20 @@
+[
+  {
+    "regNumber": "ABC-123",
+    "rentalPricePerDay": 50.00,
+    "brand": "AUDI",
+    "electric": false
+  },
+  {
+    "regNumber": "PQR-012",
+    "rentalPricePerDay": 80.00,
+    "brand": "VW",
+    "electric": false
+  },
+  {
+    "regNumber": "DEF-234",
+    "rentalPricePerDay": 55.00,
+    "brand": "AUDI",
+    "electric": true
+  }
+]

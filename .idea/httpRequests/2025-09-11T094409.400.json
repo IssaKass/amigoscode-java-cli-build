@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-09-11T06:44:09.906+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71ds"
+}

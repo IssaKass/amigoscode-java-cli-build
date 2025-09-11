@@ -1,0 +1,488 @@
+POST http://localhost:8080/api/v1/bookings
+Content-Type: application/json
+Content-Length: 80
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": "47e5b5e1-5e26-444f-801b-c689945c71d6",
+  "regNumber": "DEF-234"
+}
+
+<> 2025-09-11T094441.404.json
+
+###
+
+POST http://localhost:8080/api/v1/bookings
+Content-Type: application/json
+Content-Length: 80
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": "47e5b5e1-5e26-444f-801b-c689945c71d6",
+  "regNumber": "DEF-234"
+}
+
+<> 2025-09-11T094440.201.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094438.200.json
+
+###
+
+POST http://localhost:8080/api/v1/bookings
+Content-Type: application/json
+Content-Length: 83
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": "47e5b5e1-5e26-444f-801b-c689945c71dd",
+  "regNumber": "DEF-lll234"
+}
+
+<> 2025-09-11T094425.404.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094423.200.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71dd
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094414.200.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71ds
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094409.400.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6?
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094405.200.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094402.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric=true
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094400.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094356.200.json
+
+###
+
+GET http://localhost:8080/api/v1/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094353.200.json
+
+###
+
+POST http://localhost:8080/api/v1/bookings
+Content-Type: application/json
+Content-Length: 83
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": "47e5b5e1-5e26-444f-801b-c689945c71d6",
+  "regNumber": "DEF-lll234"
+}
+
+<> 2025-09-11T094242.500.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094036.200.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094025.200.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094020.200.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094016.200.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094013.200.json
+
+###
+
+POST http://localhost:8080/api/v1/bookings
+Content-Type: application/json
+Content-Length: 80
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": "47e5b5e1-5e26-444f-801b-c689945c71d6",
+  "regNumber": "DEF-234"
+}
+
+<> 2025-09-11T094012.201.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T094010.200.json
+
+###
+
+POST http://localhost:8080/api/v1/bookings
+Content-Type: application/json
+Content-Length: 80
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": "47e5b5e1-5e26-444f-801b-c689945c71d6",
+  "regNumber": "DEF-234"
+}
+
+<> 2025-09-11T093758.500.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093755.200.json
+
+###
+
+POST http://localhost:8080/api/v1/bookings
+Content-Type: application/json
+Content-Length: 80
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": "47e5b5e1-5e26-444f-801b-c689945c71d6",
+  "regNumber": "DEF-234"
+}
+
+<> 2025-09-11T093753.201.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093749.200.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093740.200.json
+
+###
+
+POST http://localhost:8080/api/v1/bookings
+Content-Type: application/json
+Content-Length: 80
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": "2a1b32d2-8b6a-4f24-9c5c-7e3f2d2b5c4a",
+  "regNumber": "DEF-234"
+}
+
+<> 2025-09-11T093649.201.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093606.200.json
+
+###
+
+GET http://localhost:8080/api/v1/bookings/users/47e5b5e1-5e26-444f-801b-c689945c71d6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093550.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric=true
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093508.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093459.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric=true
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093417.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093412.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093408.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093248.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093242.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093240.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093032.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093031.200.json
+
+###
+
+GET http://localhost:8080/api/v1/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T093030.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T092642.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T092640.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T092637.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T092528.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available?electric
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T092522.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T092456.200.json
+
+###
+
+GET http://localhost:8080/api/v1/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T092455.200.json
+
+###
+
+GET http://localhost:8080/api/v1/cars/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T092413.500.json
+
+###
+
+GET http://localhost:8080/api/v1/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-11T092358.200.json
+
+###
+

@@ -1,0 +1,62 @@
+[
+  {
+    "bookingId": "f04fade7-17c2-4c70-acbf-7ddcd7d6b020",
+    "user": {
+      "id": "47e5b5e1-5e26-444f-801b-c689945c71d6",
+      "name": "John Doe"
+    },
+    "car": {
+      "regNumber": "ABC-123",
+      "rentalPricePerDay": 50.00,
+      "brand": "AUDI",
+      "electric": false
+    },
+    "bookingTime": "2025-09-11T10:00:00",
+    "canceled": false
+  },
+  {
+    "bookingId": "40c171c0-207b-4885-b2ed-c8ebbcaabe17",
+    "user": {
+      "id": "b0d7a9d0-c116-434a-91d1-6e3e5c9b6f4e",
+      "name": "Jane Smith"
+    },
+    "car": {
+      "regNumber": "XYZ-456",
+      "rentalPricePerDay": 75.50,
+      "brand": "TESLA",
+      "electric": true
+    },
+    "bookingTime": "2025-09-10T15:30:00",
+    "canceled": false
+  },
+  {
+    "bookingId": "56ee9228-957e-470d-93cb-c68af5183c57",
+    "user": {
+      "id": "2a1b32d2-8b6a-4f24-9c5c-7e3f2d2b5c4a",
+      "name": "Peter Jones"
+    },
+    "car": {
+      "regNumber": "MNO-789",
+      "rentalPricePerDay": 60.00,
+      "brand": "MERCEDES",
+      "electric": false
+    },
+    "bookingTime": "2025-09-09T11:45:00",
+    "canceled": false
+  },
+  {
+    "bookingId": "c4a0243b-b353-4415-b218-3948b142a545",
+    "user": {
+      "id": "47e5b5e1-5e26-444f-801b-c689945c71d6",
+      "name": "John Doe"
+    },
+    "car": {
+      "regNumber": "PQR-012",
+      "rentalPricePerDay": 80.00,
+      "brand": "VW",
+      "electric": false
+    },
+    "bookingTime": "2025-09-11T09:15:00",
+    "canceled": false
+  }
+]

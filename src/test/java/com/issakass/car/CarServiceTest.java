@@ -43,7 +43,7 @@ class CarServiceTest {
     }
 
     @Test
-    void getCar_shouldReturnCar_whenRegNumberExists() {
+    void getCar_shouldReturnCar_whenGetRegNumberExists() {
         // Given
         String regNumber = "1234";
         Car expected = new Car(regNumber, new BigDecimal("89.0"), Brand.TESLA, true);
@@ -62,7 +62,7 @@ class CarServiceTest {
     }
 
     @Test
-    void getCar_shouldThrowException_whenRegNumberDoesNotExist() {
+    void getCar_shouldThrowException_whenGetRegNumberDoesNotExist() {
         // Given
         String nonExistentRegNumber = "9999";
         List<Car> cars = List.of(

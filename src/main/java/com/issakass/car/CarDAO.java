@@ -1,22 +1,23 @@
 package com.issakass.car;
 
-import java.math.BigDecimal;
-import java.util.Arrays;
+import com.issakass.booking.CarBooking;
+
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Author: abdallah-issakass
  */
-public class CarDAO {
+public interface CarDAO {
+	List<Car> getAllCars();
 
-    private static final List<Car> CARS = Arrays.asList(
-            new Car("1234", new BigDecimal("89.0"), Brand.TESLA, true),
-            new Car("5678", new BigDecimal("50.0"), Brand.AUDI, false),
-            new Car("4321", new BigDecimal("77.0"), Brand.MERCEDES, false)
-    );
+	List<Car> getAllElectricalCars();
 
-    public List<Car> getAllCars() {
-        return CARS;
-    }
+	Optional<Car> getCar(String regNumber);
 
+	List<Car> getAvailableCars(List<CarBooking> carBookings);
+
+	List<Car> getAvailableElectricCars(List<CarBooking> carBookings);
+
+	List<Car> getBookedCars(List<CarBooking> carBookings);
 }

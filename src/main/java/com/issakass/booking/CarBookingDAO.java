@@ -1,29 +1,19 @@
 package com.issakass.booking;
 
-import java.util.ArrayList;
+import com.issakass.car.Car;
+
 import java.util.List;
 import java.util.UUID;
 
 /**
  * Author: abdallah-issakass
  */
-public class CarBookingDAO {
+public interface CarBookingDAO {
+	List<CarBooking> getCarBookings();
 
-    private static final List<CarBooking> carBookings;
+	void cancelCarBooking(UUID id);
 
-    static {
-        carBookings = new ArrayList<>();
-    }
+	List<Car> getUserBookedCars(UUID userId);
 
-    public List<CarBooking> getCarBookings() {
-        return carBookings;
-    }
-
-    public void book(CarBooking carBooking) {
-        carBookings.add(carBooking);
-    }
-
-    public void cancelCarBooking(UUID id) {
-
-    }
+	UUID save(CarBooking carBooking);
 }

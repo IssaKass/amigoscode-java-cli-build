@@ -9,9 +9,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Author: abdallah-issakass
  */
-class CarDAOTest {
+class CarListDataAccessServiceTest {
 
-    private final CarDAO underTest = new CarDAO();
+    private final CarListDataAccessService underTest = new CarListDataAccessService();
 
     @Test
     void getAllCars_shouldReturnAllHardcodedCars() {

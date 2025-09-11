@@ -1,92 +1,63 @@
 package com.issakass.booking;
 
 import com.issakass.car.Car;
+import com.issakass.car.CarNotAvailableException;
 import com.issakass.car.CarService;
 import com.issakass.user.User;
+import com.issakass.user.UserService;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.List;
+import java.util.UUID;
 
 /**
  * Author:abdallah-issakass
  */
+@Service
 public class CarBookingService {
 
-    private final CarBookingDAO carBookingDao;
-    private final CarService carService;
+	private final CarBookingDAO carBookingDAO;
+	private final UserService userService;
+	private final CarService carService;
 
-    public CarBookingService(CarBookingDAO carBookingDao, CarService carService) {
-        this.carBookingDao = carBookingDao;
-        this.carService = carService;
-    }
+	public CarBookingService(
+			@Qualifier("carBookingJpaDAO") CarBookingDAO carBookingDAO,
+			UserService userService,
+			CarService carService
+	) {
+		this.carBookingDAO = carBookingDAO;
+		this.userService = userService;
+		this.carService = carService;
+	}
 
-    public UUID bookCar(User user, String regNumber) {
-        List<Car> availableCars = getAvailableCars();
+	public UUID bookCar(CarBookingRequest request) {
+		User user = userService.getUserById(UUID.fromString(request.userId()));
+		Car carToBook = getAvailableCars().stream()
+				.filter(car -> car.getRegNumber().equals(request.regNumber()))
+				.findFirst()
+				.orElseThrow(() -> new CarNotAvailableException(
+						"Car not available or already booked: " + request.regNumber()
+				));
 
-        if (availableCars.isEmpty()) {
-            throw new IllegalStateException("No car available for renting");
-        }
-
-        return availableCars.stream()
-                .filter(car -> car.regNumber().equals(regNumber))
-                .findFirst()
-                .map(car -> {
-                    UUID bookingId = UUID.randomUUID();
-                    carBookingDao.book(
-                            new CarBooking(bookingId, user, car, LocalDateTime.now())
-                    );
-                    return bookingId;
-                })
-                .orElseThrow(() -> new IllegalStateException("Already booked. car with regNumber " + regNumber));
-    }
+		return carBookingDAO.save(new CarBooking(user, carToBook));
+	}
 
 
-    public List<Car> getUserBookedCars(UUID userId) {
-        return carBookingDao.getCarBookings()
-                .stream()
-                .filter(Objects::nonNull)
-                .filter(carBooking -> carBooking.getUser().id().equals(userId))
-                .map(CarBooking::getCar)
-                .toList();
-    }
+	public List<Car> getUserBookedCars(UUID userId) {
+		return carBookingDAO.getUserBookedCars(userId);
+	}
+
+	public List<Car> getAvailableCars() {
+		return carService.getAvailableCars(false);
+	}
 
 
-    public List<Car> getAvailableCars() {
-        return getCars(carService.getAllCars());
-    }
+	public List<Car> getAvailableElectricCars() {
+		return carService.getAvailableCars(false);
+	}
 
-
-    public List<Car> getAvailableElectricCars() {
-        return getCars(carService.getAllElectricCars());
-    }
-
-
-    private List<Car> getCars(List<Car> cars) {
-        // no cars in the system yet
-        if (cars.isEmpty()) {
-            return Collections.emptyList();
-        }
-
-        List<CarBooking> carBookings = carBookingDao.getCarBookings();
-
-        // no bookings yet therefore all cars are available
-        if (carBookings.isEmpty()) {
-            return cars;
-        }
-
-        Set<Car> bookedCars = carBookings.stream()
-                .filter(Objects::nonNull)
-                .map(CarBooking::getCar)
-                .collect(Collectors.toSet());
-
-        return cars.stream()
-                .filter(car -> !bookedCars.contains(car))
-                .toList();
-    }
-
-
-    public List<CarBooking> getBookings() {
-        return carBookingDao.getCarBookings();
-    }
+	public List<CarBooking> getBookings() {
+		return carBookingDAO.getCarBookings();
+	}
 }

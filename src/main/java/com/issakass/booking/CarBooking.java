@@ -2,6 +2,8 @@ package com.issakass.booking;
 
 import com.issakass.car.Car;
 import com.issakass.user.User;
+import jakarta.persistence.*;
+import org.springframework.data.annotation.CreatedDate;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
@@ -10,85 +12,88 @@ import java.util.UUID;
 /**
  * Author: abdallah-issakass
  */
+@Entity
 public class CarBooking {
-    private UUID bookingId;
-    private User user;
-    private Car car;
-    private LocalDateTime bookingTime;
-    private boolean isCanceled;
+	@Id
+	@GeneratedValue(strategy = GenerationType.UUID)
+	private UUID bookingId;
 
-    public CarBooking(UUID bookingId, User user, Car car, LocalDateTime bookingTime, boolean isCanceled) {
-        this.bookingId = bookingId;
-        this.user = user;
-        this.car = car;
-        this.bookingTime = bookingTime;
-        this.isCanceled = isCanceled;
-    }
+	@ManyToOne
+	@JoinColumn(name = "user_id", nullable = false)
+	private User user;
 
-    public CarBooking(UUID bookingId, User user, Car car, LocalDateTime bookingTime) {
-        this(bookingId, user, car, bookingTime, false);
-    }
+	@ManyToOne
+	@JoinColumn(name = "car_id", nullable = false)
+	private Car car;
 
-    public UUID getBookingId() {
-        return bookingId;
-    }
+	@CreatedDate
+	private LocalDateTime bookingTime;
 
-    public void setBookingId(UUID bookingId) {
-        this.bookingId = bookingId;
-    }
+	private boolean canceled;
 
-    public User getUser() {
-        return user;
-    }
+	public CarBooking() {
+	}
 
-    public void setUser(User user) {
-        this.user = user;
-    }
+	public CarBooking(User user, Car car) {
+		this.user = user;
+		this.car = car;
+	}
 
-    public Car getCar() {
-        return car;
-    }
+	public CarBooking(User user, Car car, boolean canceled) {
+		this.user = user;
+		this.car = car;
+		this.canceled = canceled;
+	}
 
-    public void setCar(Car car) {
-        this.car = car;
-    }
+	public UUID getBookingId() {
+		return bookingId;
+	}
 
-    public LocalDateTime getBookingTime() {
-        return bookingTime;
-    }
+	public void setBookingId(UUID bookingId) {
+		this.bookingId = bookingId;
+	}
 
-    public void setBookingTime(LocalDateTime bookingTime) {
-        this.bookingTime = bookingTime;
-    }
+	public User getUser() {
+		return user;
+	}
 
-    public boolean isCanceled() {
-        return isCanceled;
-    }
+	public void setUser(User user) {
+		this.user = user;
+	}
 
-    public void setCanceled(boolean canceled) {
-        isCanceled = canceled;
-    }
+	public Car getCar() {
+		return car;
+	}
 
-    @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        CarBooking booking = (CarBooking) o;
-        return isCanceled() == booking.isCanceled() && Objects.equals(getBookingId(), booking.getBookingId()) && Objects.equals(getUser(), booking.getUser()) && Objects.equals(getCar(), booking.getCar()) && Objects.equals(getBookingTime(), booking.getBookingTime());
-    }
+	public void setCar(Car car) {
+		this.car = car;
+	}
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(getBookingId(), getUser(), getCar(), getBookingTime(), isCanceled());
-    }
+	public LocalDateTime getBookingTime() {
+		return bookingTime;
+	}
 
-    @Override
-    public String toString() {
-        return "CarBooking{" +
-               "bookingId=" + bookingId +
-               ", user=" + user +
-               ", car=" + car +
-               ", bookingTime=" + bookingTime +
-               ", isCanceled=" + isCanceled +
-               '}';
-    }
+	public void setBookingTime(LocalDateTime bookingTime) {
+		this.bookingTime = bookingTime;
+	}
+
+	public boolean isCanceled() {
+		return canceled;
+	}
+
+	public void setCanceled(boolean canceled) {
+		this.canceled = canceled;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (o == null || getClass() != o.getClass()) return false;
+		CarBooking booking = (CarBooking) o;
+		return isCanceled() == booking.isCanceled() && Objects.equals(getBookingId(), booking.getBookingId()) && Objects.equals(getUser(), booking.getUser()) && Objects.equals(getCar(), booking.getCar()) && Objects.equals(getBookingTime(), booking.getBookingTime());
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(getBookingId(), getUser(), getCar(), getBookingTime(), isCanceled());
+	}
 }

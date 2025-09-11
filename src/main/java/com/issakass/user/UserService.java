@@ -1,27 +1,29 @@
 package com.issakass.user;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.UUID;
 
 /**
  * Author: abdallah-issakass
  */
+@Service
 public class UserService {
 
-    private final UserDAO userDAO;
+	private final UserDAO userDAO;
 
-    public UserService(UserDAO userDAO) {
-        this.userDAO = userDAO;
-    }
+	public UserService(@Qualifier("userJpaDAO") UserDAO userDAO) {
+		this.userDAO = userDAO;
+	}
 
-    public List<User> getUsers() {
-        return userDAO.getUsers();
-    }
+	public List<User> getUsers() {
+		return userDAO.getUsers();
+	}
 
-    public User getUserById(UUID id) {
-        return getUsers().stream()
-                .filter(user -> user.id().equals(id))
-                .findFirst()
-                .orElse(null);
-    }
+	public User getUserById(UUID id) {
+		return userDAO.getUserById(id)
+				.orElse(null);
+	}
 }
